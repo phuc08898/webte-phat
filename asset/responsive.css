@@ -1,0 +1,92 @@
+@media(max-width:740px){
+    #nav{
+        display: block;
+    }
+    #nav > ul > li{
+
+        display: block;
+    }
+    #nav li:first-child{
+        display: inline-block;
+    }
+    #nav .sub_nav{
+        position: initial;
+        background-color: rgb(85, 85, 79);
+        text-align: left;
+    }
+    #nav .sub_nav a{
+        padding: 0 50px;
+    }
+    .fix-dislay{
+        display: block;
+    }
+    #header{
+        height: 46px;
+        background-color: rgb(44, 105, 175);
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        overflow: hidden;
+        left: 0;
+        /* width: 100%; CÓ THẺ DÙNG width: 100%; */
+    }
+    #header .search-btn{
+        display: none;
+    }
+    .mobile-menu-btn{
+        display: block;
+        float: right;
+        color: #e4dbdb;
+        line-height: 46px;
+        font-size: 20px;
+        padding: 0 19px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .mobile-menu-btn:hover{
+        background-color: #ccc;
+        color: black;
+    }
+    .text-content b  {
+        font-size: 26px;
+    }
+    .text-description{
+        font-size: 15px;
+    }
+    /* phần ảnh */
+    #content .menberItem{
+        
+        width: 100%;
+        margin-top: 40px;
+        text-align: center;
+    }
+    .member-name {
+        margin-bottom: 10px;
+        padding-top: 10px;
+    }
+    .numberimg{
+        width: 60%;
+    }
+    /* phần vé  */
+    .list-item{
+       width: 100%;
+       display: block;
+       border-radius: 3px;
+       margin: 26px 0;
+         
+     }
+    .list-item2{
+        margin-top: 5px;
+    }
+    button.btn-buy.js-buy-tiket {
+        width: 55%;
+    }
+
+}
+@media(min-width:1024px){
+    .mobile-menu-btn{
+        display: none;
+    }
+}
